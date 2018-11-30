@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="searchCode">
+        <item>분류 선택</item>
+        <item>정치, 선거 관계에 관한 결정</item>
+        <item>언론 등 정신적 자유에 관한 결정</item>
+        <item>경제, 재산권, 조세 관계에 관한 결정</item>
+        <item>가족, 노동 등 사회 관계에 관한 결정</item>
+        <item>절차적 기본권 및 형사 관계에 관한 결정</item>
+        <item>헌법 위원회 및 대법원 헌법 판례</item>
+    </string-array>
+
+    <string-array name="gubun">
+        <item>구분 선택</item>
+        <item>제목</item>
+        <item>결정문</item>
+    </string-array>
+</resources>
