@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MemberInfo</string>
+    <string name="region_change">지역이 변경되었습니다.</string>
+</resources>
