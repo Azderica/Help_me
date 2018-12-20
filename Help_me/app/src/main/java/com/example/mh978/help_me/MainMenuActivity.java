@@ -55,12 +55,18 @@ public class MainMenuActivity extends AppCompatActivity {
                 intent = new Intent(MainMenuActivity.this, MemberInfoActivity.class);
                 startActivity(intent);
                 break;
-            case R.id.Search_button:
+            case R.id.Search_button:/*
                 EditText editText = findViewById(R.id.Search_editText);
                 find_item = editText.getText().toString();
                 intent = new Intent(Intent.ACTION_WEB_SEARCH);
                 intent.putExtra(SearchManager.QUERY, find_item);
+                startActivity(intent);*/
+                EditText editText = findViewById(R.id.Search_editText);
+                find_item = editText.getText().toString();
+                intent = new Intent(MainMenuActivity.this, MainQuestion.class);
+                intent.putExtra("item",find_item);
                 startActivity(intent);
+                break;
         }
     }
 }
