@@ -34,16 +34,8 @@ public class MainQuestion extends AppCompatActivity {
         mWebView.getSettings().setJavaScriptEnabled(true);
 
         mWebView.loadUrl(myUrl);
-        //mWebView.setWebChromeClient(new WebChromeClient());
         mWebView.setWebViewClient(new WebViewClientClass());
     }
-
-    // 키보드처리, 지금은 사용할 필요 없는거 같아서 사용 안함
-    /*@Override
-    public boolean onKeyDown(int keyCode, KeyEvent event) {
-        // 처리할 키 적어준다
-        return super.onKeyDown(keyCode, event);
-    }*/
 
     // 해당 사이트 내에서 다른 곳으로 이동할 수 있게하는 함수
     private class WebViewClientClass extends WebViewClient {

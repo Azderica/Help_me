@@ -14,9 +14,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
+        <uses-library android:name="org.apache.http.legacy" android:required="false" />
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCO9SKlgSBsuLdLPydozheaMJYQhYhmhCU" />
+            android:value="AIzaSyCZ2fpc4ZlG8ApSHZmIM1sWIG2kY143sp0" />
 
         <activity android:name=".MainMenuActivity">
             <intent-filter>
@@ -46,7 +47,5 @@
         <activity
             android:name=".Law6.MemberInfoActivity"
             android:windowSoftInputMode="adjustNothing" />
-        <activity android:name=".MainQuestion"></activity>
     </application>
-
 </manifest>
