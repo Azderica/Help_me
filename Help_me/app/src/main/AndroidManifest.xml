@@ -48,4 +48,5 @@
             android:name=".Law6.MemberInfoActivity"
             android:windowSoftInputMode="adjustNothing" />
     </application>
+    
 </manifest>
